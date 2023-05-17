@@ -1,14 +1,14 @@
 # React Movie app
 
-Simple Movie application built with React.
+- Simple Movie application built with React.
 
 ## run:
 ```
 npm start
 ```
 ## Features:
-Search For movies by title.
-Responsive design.
+- Search For movies by title.
+- Responsive design.
 
 ## Demo
 
