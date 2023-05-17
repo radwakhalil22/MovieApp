@@ -2,8 +2,7 @@ import './App.css';
 import SearchIcon from './search.svg'
 import { useEffect, useState } from 'react';
 import MovieCard
- from './MovieCard';
-// 5f9d8e98
+from './MovieCard';
 
 const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=5f9d8e98";
 
@@ -23,7 +22,7 @@ const App = () => {
   }
   useEffect(() =>{
     searchMovies({searchTerm})
-  }, [])
+  }, []);
 
   return (
     <div className="app">
